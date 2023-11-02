@@ -56,6 +56,6 @@ func die():
 
 
 
-func _on_Coin_Collector_body_entered(body):
+func _on_coin_collector_body_entered(body):
 	if body.name == "Coins":
 		body.get_coin(global_position)
